@@ -1,0 +1,94 @@
+.colormenu {
+    background-color: #88b6a3 !important;
+}
+
+.botoncolor{
+    background-color: #458168;
+  
+}
+
+.navbar-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px; /* Agregar margen inferior al menú */
+  }
+
+
+.logo {
+    width: 8%; /* Ancho máximo del 100% del contenedor */
+    height: 100; /* Altura automática proporcional al ancho */
+    max-height: 850px; /* Altura máxima de la imagen */
+    margin: 8PX;
+}
+
+.info-box {
+    background-color: #f8f9fa; /* Color de fondo del cuadro */
+    color: #212529; /* Color del texto negro */
+    padding: 20px; /* Espacio interior */
+    border: 2px solid #007bff; /* Borde sólido azul */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+footer {
+    background-color: #88b6a3; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 40px 20px; /* Espaciado interior */
+    text-align: center; /* Texto centrado */
+}
+
+.footer2 {
+    background-color: #878286; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    padding: 20px 0;
+    text-align: center;
+     width: 100%; /* Ancho completo */
+    bottom: 0; /* Pegado al fondo */
+}
+
+
+
+
+/* Estilos adicionales */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* La tarjeta ocupa toda la altura del viewport */
+    margin-top: 20px; /* Agregar margen superior a la carta */
+    min-height: 300px; /* Altura mínima para la carta */
+    margin-bottom: 20px; /* Agregar margen inferior a la carta */
+}
+
+.card {
+    width: 90%; /* Ancho de la tarjeta */
+    max-width: 900px; /* Ancho máximo de la tarjeta */
+    height: 60vh; /* Altura de la tarjeta */
+    max-height: 600px; /* Altura máxima de la tarjeta */
+
+}
+
+.card-img-bottom {
+    border-bottom: 20px solid black; /* Estilo del borde inferior */
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-body {
+    height: 100%; /* Altura máxima del cuerpo de la tarjeta */
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si el contenido es demasiado largo */
+}
+
+.card-details {
+    padding-right: 5px; /* Espacio a la derecha para dejar información adicional */
+}
+
+.footer-container {
+    margin-top: 20px; /* Agregar margen superior al footer */
+    border-top: 1px solid #dee2e6; /* Agregar borde superior */
+}
+
+ 

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Snoopy.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark colormenu"> <!-- Cambié bg-primary a bg-custom -->
+            <a class="navbar-brand" href="Inicio.html"> 
+                <img src="Perro logo.png" class="logo" alt="...">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Adopta.html">Adopta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Colabora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Columna de la imagen -->
+            <div class="col-md-6">
+                <img src="imagen.jpg" class="img-fluid" alt="Imagen grande" style="max-height: 100%; max-width: 100%;">
+            </div>
+            <!-- Columna de la información -->
+            <div class="col-md-6">
+                <div class="row">
+                    <!-- Sección 1: Detalles del perro -->
+                    <div class="col-md-12 mb-3">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-2">Detalles del perro</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item p-1">Nombre: Nombre del perro</li>
+                                    <li class="list-group-item p-1">Edad: X años</li>
+                                    <li class="list-group-item p-1">Sexo: Macho / Hembra</li>
+                                    <li class="list-group-item p-1">Tamaño: Tamaño del perro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sección 2: Más Información -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <h5 class="card-title mb-2">Más Información</h5>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item p-1">Se adapta a departamento: Sí / No</li>
+                                    <li class="list-group-item p-1">Cauteloso con niños: Sí / No</li>
+                                    <li class="list-group-item p-1">Convive con perros: Sí / No</li>
+                                    <li class="list-group-item p-1">Convive con gatos: Sí / No</li>
+                                    <li class="list-group-item p-1">Nivel de energía: Bajo / Medio / Alto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container"> <!-- Agregado contenedor para el footer -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="info-box">
+                        <h4>Acerca de Ayuda a un peludo</h4>
+                        <p>Somos una organización dedicada al rescate y adopción de perros y gatos sin hogar.</p>
+                        <p>Contacto: contacto@ayudaunpeludo.com</p>
+                        <p>Teléfono: +1234567890</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <p>¡Gracias por apoyar a Ayuda un Peludo!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

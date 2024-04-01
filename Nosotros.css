@@ -48,7 +48,7 @@ header h1 {
 }
 
 footer {
-    background-color: #878286; /* Color de fondo del pie de página */
+    background-color: #88b6a3; /* Color de fondo del pie de página */
     color: #fff; /* Color del texto del pie de página */
     padding: 20px 0;
     text-align: center;
@@ -74,4 +74,21 @@ footer {
 
 .colormenu {
     background-color: #88b6a3 !important;
+}
+
+.info-box {
+    background-color: #f8f9fa; /* Color de fondo del cuadro */
+    color: #212529; /* Color del texto negro */
+    padding: 20px; /* Espacio interior */
+    border: 2px solid #007bff; /* Borde sólido azul */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.footer2 {
+    background-color: #878286; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    padding: 20px 0;
+    text-align: center;
+     width: 100%; /* Ancho completo */
+    bottom: 0; /* Pegado al fondo */
 }

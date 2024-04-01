@@ -47,7 +47,7 @@ footer {
   background-color: #f8f9fa; /* Color de fondo del cuadro */
   color: #212529; /* Color del texto negro */
   padding: 20px; /* Espacio interior */
-  border: 2px solid #458168; /* Borde sólido azul */
+  border: 2px solid #458168; /* Borde verde */
   border-radius: 10px; /* Borde redondeado */
 }
 .footer2 {
@@ -57,5 +57,14 @@ footer {
     text-align: center;
      width: 100%; /* Ancho completo */
     bottom: 0; /* Pegado al fondo */
-    }
+}
+
+.colormenu {
+  background-color: #88b6a3 !important;
+}
+
+.botoncolor{
+  background-color: #458168;
+
+}
   
