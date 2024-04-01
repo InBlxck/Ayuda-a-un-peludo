@@ -1,0 +1,61 @@
+.navbar-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 2px solid black;
+    width: 10rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+
+  /* Adopta.css */
+
+.card {
+    height: 400px; /* Ajusta la altura de la tarjeta */
+  }
+  
+  .card-img-top {
+    height: 60%; /* Ajusta el tamaño de la imagen */
+  }
+
+  .logo {
+    width: 8%; /* Ancho máximo del 100% del contenedor */
+    height: 100; /* Altura automática proporcional al ancho */
+    max-height: 850px; /* Altura máxima de la imagen */
+    margin: 8PX;
+}
+
+footer {
+  background-color: #88b6a3; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  padding: 40px 20px; /* Espaciado interior */
+  text-align: center; /* Texto centrado */
+}
+
+.info-box {
+  background-color: #f8f9fa; /* Color de fondo del cuadro */
+  color: #212529; /* Color del texto negro */
+  padding: 20px; /* Espacio interior */
+  border: 2px solid #458168; /* Borde sólido azul */
+  border-radius: 10px; /* Borde redondeado */
+}
+.footer2 {
+    background-color: #878286; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    padding: 20px 0;
+    text-align: center;
+     width: 100%; /* Ancho completo */
+    bottom: 0; /* Pegado al fondo */
+    }
+  
