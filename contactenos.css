@@ -1,0 +1,22 @@
+.card {
+    padding: 40px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  
+  .btn-primary {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .botoncolor{
+    background-color: #458168;
+  
+  }
